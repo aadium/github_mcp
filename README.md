@@ -27,7 +27,7 @@ Before running this project, ensure you have:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd mcp-github-server
+   cd github_mcp
    ```
 3. Install dependencies:
    ```bash
