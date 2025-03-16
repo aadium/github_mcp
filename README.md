@@ -55,7 +55,7 @@ The server provides the following endpoints:
   {
       "command": "create_repo",
       "arguments": {
-          "repo_name": "awesome-project",
+          "repo_name": "node-project",
           "description": "A repository to showcase the awesomeness of Node.js projects.",
           "topics": ["nodejs", "open-source", "example"]
       }
@@ -64,7 +64,7 @@ The server provides the following endpoints:
 - **Response** (success):
   ```json
   {
-      "message": "Repository 'awesome-project' created successfully!"
+      "message": "Repository 'node-project' created successfully!"
   }
   ```
 
@@ -84,7 +84,7 @@ The server provides the following endpoints:
    {
        "command": "create_repo",
        "arguments": {
-           "repo_name": "awesome-project",
+           "repo_name": "node-project",
            "description": "A repository to showcase the awesomeness of Node.js projects.",
            "topics": ["nodejs", "open-source", "example"]
        }
@@ -96,13 +96,13 @@ The server provides the following endpoints:
 
 ## How AI (like Claude) Interacts
 1. **Natural Language Input**: The user gives a command, such as:
-   > "Can you create a GitHub repository named 'awesome-project'?"
+   > "Can you create a GitHub repository named 'node-project'?"
 2. **MCP Command**: The AI converts the input into a structured JSON command, like:
    ```json
    {
        "command": "create_repo",
        "arguments": {
-           "repo_name": "awesome-project",
+           "repo_name": "node-project",
            "description": "This is an awesome repository created via the MCP server.",
            "topics": ["nodejs", "tutorial", "example"]
        }
@@ -119,7 +119,7 @@ The server provides the following endpoints:
 {
     "command": "list_repos",
     "arguments": {
-        "username": "octocat"
+        "username": "aadium"
     }
 }
 ```
@@ -129,7 +129,7 @@ The server provides the following endpoints:
 {
     "command": "create_repo",
     "arguments": {
-        "repo_name": "awesome-project",
+        "repo_name": "node-project",
         "description": "An awesome project repository",
         "topics": ["nodejs", "example", "open-source"]
     }
